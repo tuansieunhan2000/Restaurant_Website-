@@ -1,3 +1,6 @@
+// Animaition on scroll
+
+
 // nav
 const toggleNav = document.querySelector(".nav-toggle");
 toggleNav.addEventListener('click', togglerNav)
@@ -36,7 +39,10 @@ menuTabs.addEventListener('click', (e)=>{
         e.target.classList.add("active");
        const menuSection = document.querySelector(".menu-section");
        menuSection.querySelector(".menu-tab-content.active").classList.remove("active");
-       menuSection.querySelector(target).classList.add("active")
+       menuSection.querySelector(target).classList.add("active");
+    
+
        
     }
 })
+

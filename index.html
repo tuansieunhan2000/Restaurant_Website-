@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
         <!-- Header start -->
@@ -37,7 +40,7 @@
             <div class="home-bg"></div>
             <div class="container">
                 <div class="row min-vh-100 align-item-center">
-                    <div class="home-text ">
+                    <div class="home-text " data-aos="fade-up" data-aos-duration="1500">
                         <h1>Dine Out Restaurant</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maxime, repellat tenetur pariatur id quidem voluptatum accusamus similique provident autem.</p>
                         <a href="#our-menu" class="btn btn-default">Our menu</a>
@@ -53,12 +56,12 @@
         <section class="about-section sec-padding" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="section-title">
+                    <div class="section-title" data-aos="fade-up">
                         <h2 data-title="our story">About us</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="about-text">
+                    <div class="about-text" data-aos="fade-right" data-aos-duration="500">
                         <h3>Welcom to Dine Out Restaurant</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium odio maxime, tenetur fugit veritatis sint sunt? Itaque, consequatur debitis consequuntur et magnam deleniti alias. Perferendis consequuntur nemo eos ratione!
 
@@ -69,7 +72,7 @@
                         <a href="#our-menu" class="btn btn-default">Check our menu</a>
                         
                     </div>
-                    <div class="about-img">
+                    <div class="about-img" data-aos="fade-left" data-aos-duration="500">
                         <div class="img-box">
                             <h2>20+ years experience</h2>
                         
@@ -83,15 +86,15 @@
         <!-- About section end -->
 
         <!-- Menu section start -->
-        <div class="menu-section sec-padding" id="menu">
+        <div class="menu-section sec-padding" id="our-menu">
             <div class="container">
                 <div class="row">
-                    <div class="section-title">
+                    <div class="section-title" data-aos="fade-up"  data-aos-duration="500">
                         <h2 data-title="order now">Our Menu</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="menu-tabs">
+                    <div class="menu-tabs" data-aos="fade-up"  data-aos-duration="1000">
                         <button class="menu-tab-item active" type="button" data-target="#lunch">Lunch</button>
                         <button class="menu-tab-item" type="button" data-target="#dinner">Dinner</button>
                         <button class="menu-tab-item" type="button" data-target="#drinks">Drinks</button>
@@ -99,7 +102,7 @@
                     </div>
                 </div>
                 <div class="row menu-tab-content active" id="lunch">
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/1.jpg" alt="">
                             <h3>Lunch item</h3>
@@ -108,7 +111,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/2.jpg" alt="">
                             <h3>Lunch item</h3>
@@ -117,7 +120,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/3.jpg" alt="">
                             <h3>Lunch item</h3>
@@ -126,7 +129,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/4.jpg" alt="">
                             <h3>Lunch item</h3>
@@ -138,7 +141,7 @@
                     
                 </div>
                 <div class="row menu-tab-content" id="dinner">
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/1.jpg" alt="">
                             <h3>Dinner item</h3>
@@ -147,7 +150,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/2.jpg" alt="">
                             <h3>Dinner item</h3>
@@ -156,7 +159,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/3.jpg" alt="">
                             <h3>Dinner item</h3>
@@ -165,7 +168,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/4.jpg" alt="">
                             <h3>Dinner item</h3>
@@ -176,7 +179,7 @@
                     </div>
                 </div>
                 <div class="row menu-tab-content" id="drinks">
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/1.jpg" alt="">
                             <h3>Drinks item</h3>
@@ -185,7 +188,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/2.jpg" alt="">
                             <h3>Drinks item</h3>
@@ -194,7 +197,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/3.jpg" alt="">
                             <h3>Drinks item</h3>
@@ -203,7 +206,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/4.jpg" alt="">
                             <h3>Drinks item</h3>
@@ -214,7 +217,7 @@
                     </div>
                 </div>
                 <div class="row menu-tab-content" id="desserts">
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/5.jpg" alt="">
                             <h3>Desserts item</h3>
@@ -223,7 +226,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/6.jpg" alt="">
                             <h3>Desserts item</h3>
@@ -232,7 +235,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-right">
                         <div class="menu-item-title">
                             <img src="./img/menu/7.jpg" alt="">
                             <h3>Desserts item</h3>
@@ -241,7 +244,7 @@
                             $2
                         </div>
                     </div>
-                    <div class="menu-item">
+                    <div class="menu-item" data-aos="fade-left">
                         <div class="menu-item-title">
                             <img src="./img/menu/8.jpg" alt="">
                             <h3>Desserts item</h3>
@@ -255,10 +258,154 @@
             </div>
         </div>
         <!-- Menu section end -->
+        <!-- Testimonials section start -->
+
+        <section class="testimonials-section sec-padding" id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title" data-aos="fade-up">
+                        <h2 data-title="Testimonials">Some Feedbacks</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="testi-item" data-aos="zoom-in">
+                        <div class="testi-author">
+                            <div class="testi-name">
+                                <h3>Puta 2k</h3>
+                                <span>Food Specialist</span>
+                            </div>
+                            <div class="testi-img">
+                                <img src="./img/testimonials/1.jpg" alt="">
+                            </div>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A pariatur quibusdam placeat aut? Perferendis, iste!</p>
+                        <div class="ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testi-item" data-aos="zoom-in">
+                        <div class="testi-author">
+                            <div class="testi-name">
+                                <h3>Fairy83</h3>
+                                <span>Food Specialist</span>
+                            </div>
+                            <div class="testi-img">
+                                <img src="./img/testimonials/2.jpg" alt="">
+                            </div>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A pariatur quibusdam placeat aut? Perferendis, iste!</p>
+                        <div class="ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testi-item" data-aos="zoom-in">
+                        <div class="testi-author">
+                            <div class="testi-name">
+                                <h3>Futoyo</h3>
+                                <span>Food Specialist</span>
+                            </div>
+                            <div class="testi-img">
+                                <img src="./img/testimonials/3.jpg" alt="">
+                            </div>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A pariatur quibusdam placeat aut? Perferendis, iste!</p>
+                        <div class="ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section end -->
+
+        <!-- Team section start -->
+        <section class="team-section sec-padding" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title" data-aos="fade-up">
+                        <h2 data-title="team">Our Chefs</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item-team" data-aos="flip-left" data-aos-duration="1500" >
+                        <img src="./img/team/1.jpg" alt="">
+                        <div class="team-item-info">
+                            <h2>Raj Himachal</h2>
+                            <p>Head chef</p>
+                        </div>
+                    </div>
+                    <div class="item-team" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="./img/team/2.jpg" alt="">
+                        <div class="team-item-info">
+                            <h2>Raj Himachal</h2>
+                            <p>Head chef</p>
+                        </div>
+                    </div>
+                    <div class="item-team" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="./img/team/3.jpg" alt="">
+                        <div class="team-item-info">
+                            <h2>Raj Himachal</h2>
+                            <p>Head chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team section end -->
+        <footer class="footer" id="contact">
+            <div class="container">
+                <div class="row top">
+                    <div class="footer-item" data-aos="fade-up">
+                        <h3>Our Location</h3>
+                        <p>12 Nguyen Van Bao, <br>Go Vap, HCM</p>
+                    </div>
+                    <div class="footer-item" data-aos="fade-up">
+                        <h3>Opening hours</h3>
+                        <p>Monday to Sunday<br>9:00 AM - 10:00 PM</p>
+                    </div>
+                    <div class="footer-item" data-aos="fade-up">
+                        <h3>Contact Us</h3>
+                        <p>0868&nbsp;32 38 85 </p> <p>trananhtuan.kg2000@gmail.com</p>
+                        <div class="socials-list">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="row" >
+                    <div class="copyright" >
+                        &copy;2021 - Designed by Puta
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         
 
+       
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
